@@ -1,9 +1,9 @@
 # windexstarter
 Script to start cygwin64 x server on windows startup. Because unix.
 
-Make sure you have cygwin64, or change all instances of cygwin64 to cygwin32(whatever you have)
+Make sure you have cygwin64, or change all instances of cygwin64 to cygwin32(whatever you have) in the script.
 
-When running setup be if you are familiar with Desktop managers go ahead and grab whatever you need. It's easy to sort by category and download entire categories of managers, if you're into that sort of thing, or grab whatever you'd need to make you're own startx if you were on a distro like Arch.
+When running setup be sure to grab a desktop manager. If you are familiar with Desktop managers go ahead and grab whatever you need. It's easy to sort by category and download entire categories of managers, if you're into that sort of thing, or grab whatever you'd need to make you're own startx if you were on a distro like Arch.
 
 If you're new to choosing your own  desktop manager, just grab the xfce category
 
