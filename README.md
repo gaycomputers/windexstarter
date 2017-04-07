@@ -15,7 +15,7 @@ Next download and run the windexstarter, its a short batch file so skim over it 
 
 If you know what you're doing you probably just saved like five minutes, if you don't and you grabbed xfce earlier I'll run you by starting a taskbar.
 
-Basically, distros that use startx use a hidden file called .startx(rc?) in your ~/ to decide what to start when startx is executed.
+Basically, distros that use startx use a hidden file called .xinitrc in your ~/ to decide what to start when startx is executed.
 Cygwin comes with a very special x server that allows Linux windows to use Windows windows. Windows. This program is called startxwin and uses ~/.startxwinrc
 
 So startx and startxwin both come unpopulated. 
