@@ -20,14 +20,19 @@ Cygwin comes with a very special x server that allows Linux windows to use Windo
 
 So startx and startxwin both come unpopulated. 
 To start we should copy the system default with the command:
+
 cp /etc/X11/xinit/startxwinrc ~/.startxwinrc
+
 Now your .startxwinrc is populated with some default parameters and we can add the xfce taskbar, to this add the line"exec xfce4-panel" after the initial block of comments but before the defaults.
 
 
 There you go, you can restart or execute the batch at %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
-to start x with the batch or even type startxwin in a cygwin terminal, or even:
+ or type startxwin in a cygwin terminal, or even:
+
 chdir C:\cygwin64\bin
+
 bash -l -c startxwin
+
 in a windows terminal, if you want.
 
 Have fun and check out the Arch and Cygwin wikis for great information on desktop managers as well as reddit.com/r/unixporn to see what people are doing to their DEs on actual unix!
